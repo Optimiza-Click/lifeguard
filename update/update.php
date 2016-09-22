@@ -3,13 +3,13 @@ if (!class_exists('WP_Memory_Login_Update'))
 {
 	class WP_Memory_Login_Update 
 	{		
-		public $respository_url = "";
+		public $respository_url = "https://githubversions.optimizaclick.com/repositories/view/68906086";
 		
 		public $temp_name = "temp-lifeguard-opimizaclick.zip";
 		
 		public $main_file = "lifeguard.php";
 				
-		public $url_main_file = "Lifeguard---OptimizaClick-master/lifeguard.php";
+		public $url_main_file = "lifeguard-master/lifeguard.php";
 		
 		public $url_update = "lifeguard-update";
 		
