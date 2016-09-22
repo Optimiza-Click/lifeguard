@@ -25,7 +25,7 @@ function lifeguard_is_active() {
 
     return true;
 }
-
+//
 
 if( !function_exists("update_extra_post_info") ) {
 function update_extra_post_info() {
