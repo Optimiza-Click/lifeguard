@@ -1,0 +1,71 @@
+.wp-pointer-buttons a.close {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.wp-pointer-buttons a.close:before {
+	background: none;
+}
+.wp-pointer-buttons .back {
+	float: left;
+}
+
+.wp-pointer-content h3 {
+    position: relative;
+    margin: -1px -1px 5px;
+    padding: 15px 18px 14px 60px;
+    border: 1px solid #008bad;
+    border-bottom: none;
+    line-height: 1.4em;
+    font-size: 14px;
+        font-family: Montserrat;
+    font-weight: 900;
+    color: #fff;
+    background: url(../images/fondo.png)#008bad;
+    background-repeat: no-repeat;
+}
+
+.wp-pointer-content h3:before {
+	content:none;
+}
+ .wp-core-ui .button-primary:hover {
+    background: #00b583;
+	   
+	-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+    border-color: #00b583;
+    text-shadow: none;
+    color: #fff;
+}
+.wp-core-ui .button-primary {
+    background: #008bad;
+	 font-family: Montserrat;
+    border-color: #008bad #008bad #008bad;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border-radius: 0px !important;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+.wp-pointer-top .wp-pointer-arrow-inner {    border-bottom-color: #008bad;top:0px;}
+
+.wp-pointer-buttons a.close:before {
+    background: 0 0;
+    color: #b4b9be;
+    content: "\f153";
+    display: block!important;
+    font: 400 16px/1 dashicons;
+    speak: none;
+    margin: 4px 0px 0px -15px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased!important;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: -15px;
+    top: 1px;
+}
